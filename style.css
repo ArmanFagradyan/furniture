@@ -878,6 +878,39 @@ footer .copyright{
 
 }
 
+@media (max-width: 375px) {
+
+    h1{
+        font-size: 22px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    h4{
+        font-size: 22px;
+    }
+    #products .pro{
+        width: 100%;
+    }
+    #banner {
+        height: 40vh;
+    }
+    #newsletter {
+        padding: 15px;
+    }
+    #newsletter .form{
+        width: 100%;
+    }
+    /* Cart Page */
+    #cart-add{
+        flex-direction: column;
+    }
+    #subtotal{
+        width: 100%;
+        padding: 20px;
+    }
+}
+
 @media (max-width: 477px) {
 
     h1{
